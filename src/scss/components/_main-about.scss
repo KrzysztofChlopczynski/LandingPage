@@ -1,0 +1,61 @@
+.about {
+  background: $color1;
+  width: 100%;
+  padding: 15px 0;
+
+  .description{
+      display:flex;
+      margin:0 auto;
+      max-width: 60%;
+
+      div{
+          margin-left: 10px;
+      }
+
+      p{
+        margin: 0 auto 2rem;
+        text-align: left;
+        font-size: 1.3rem;
+        color: #ffff;
+    }
+  }
+
+}
+
+
+.about-button{
+    text-align: center;
+
+    a{
+        text-align: center;
+        font-size: 1.4rem;
+        width: 18rem;
+        padding: 1.5rem 0;
+        text-transform: none;
+        color: #ffff;
+        text-decoration: none;
+        box-shadow:  0 0 0 2px;
+        cursor: pointer;
+        background: $color1;
+        border-radius: 3px;
+        display: inline-block;
+
+        &:hover{
+            color: $color2;
+        }
+    }
+
+
+}
+
+
+
+@media (max-width:760px){
+    .about{
+        .description{
+            display: block;
+            max-width: 100%;
+            padding: 0 10px;
+        }
+    }
+  }
